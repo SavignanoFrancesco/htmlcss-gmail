@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/background.jpg");
+    background-size: auto;
+}
+
+.container{
+    margin: 25px 75px;
+    color: white;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.logo span{
+    font-size: 25px;
+    color: white;
+}
+
+hr{
+    margin: 10px 0px;
+}
+
+::placeholder{
+    color: ligthgrey;
+}
+
+.emailunread{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.emailunread span{
+    padding: auto;
+    border-radius: 30px;;
+    background-color: orange;
+}
+
+.oggetto{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.letta , .nonletta{
+    border: 1px solid black;
+}
+
+.letta{
+    background-color:#c1c1d7;
+    padding: 2px;
+    color: black;
+}
+
+.nonletta{
+    background-color:white;
+    padding: 2px;
+    color: black;
+}
+
+#testoemail{
+    color: grey;
+}
+
+footer{
+    text-align: center;
+    font-size: 30px;
+}
+
+footer em{
+    font-size: 15px;
+}
